@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Cafeinados</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+
+    <main id="loginFormContainer">
+        <form id="loginForm" class="loginContainer">
+            <div class="loginBackground">
+                <h1>Login</h1>
+                 <div class="inputLoginPadding">
+                    <input  type="text" name="emailOuNome" placeholder="Email ou nome:" class="inputLoginStyle" required/>
+                </div>
+                <div class="inputLoginPadding"> 
+                    <input type="password" name="senha" placeholder="Senha:" class="inputLoginStyle" required/>
+                </div>
+                <div id="signupLinkContainer">
+                    <label id="signUpLabel">Já tem conta ?</label>
+                    <a href="./index.html" id="signUpLink">Criar conta</a>
+                </div>
+                <input type="submit" value="Enviar" id="loginSubmitButton"/>
+            </div>
+        </form>
+    </main>
+
+    <script src="./login.js"></script>
+    
+</body>
+</html>
